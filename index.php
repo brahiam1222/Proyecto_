@@ -47,7 +47,7 @@
     </div>
 </nav>
 <div class="ratio ratio-4x3">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTqWxJkYUPU3QtmkAy7gSy2NzBLTDGKNDnRdQ43FLf5RuC-pV4yKyb423XQ46VLecFob1qsBMNiVzPK/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe width="402" height="346" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=7CBD4D7F63B723F9%212836&authkey=%21ADSVKS00Qqt_koo&em=2&AllowTyping=True&ActiveCell='Hoja%201'!A1&wdInConfigurator=True"></iframe>
 </div>
 </body>
 
