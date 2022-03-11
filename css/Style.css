@@ -66,3 +66,9 @@ padding: 0px 40px 20px 40px;
     width: 6em;
     
 }
+thead {
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
