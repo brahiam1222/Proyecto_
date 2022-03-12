@@ -1,74 +1,70 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.navbar-expand{
-
-    font-size: 2em;
-
-}
-.navbar-brand{
-
-       font-size: 2em;
-}
-.logo{
-
-    width: 2em;
-
-
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-article{
-
-position: relative;
-padding: 0px 40px 20px 40px;
-
-
+.navbar-expand {
+  font-size: 2em;
 }
 
-.article-perfil{
-
-    display: block;
-    position: relative;
-    top: -5px;
-    left: 5px;
-    width: 150px;
-    padding: 15px 5px;
-
-
+.navbar-brand {
+  font-size: 2em;
 }
 
-.article-Logo{
-
-    display: block;
-    position: relative;
-    top: -5px;
-    left: -8px;
-    width: 150px;
-    padding: 15px 5px;
-
+.logo {
+  width: 2em;
 }
 
-.imglogo{
-    /* display: inline-block; */
-    text-align: center;
+article {
+  position: relative;
+  padding: 0px 40px 20px 40px;
 }
 
-.nomlogo{
-    /* display: inline-block; */
-    text-align: center;
+.article-perfil {
+  display: block;
+  position: relative;
+  top: -5px;
+  left: 5px;
+  width: 150px;
+  padding: 15px 5px;
 }
 
-.perfil{
-    /* display: inline-block; */
-    text-align: center;
-    width: 6em;
-    
+.article-Logo {
+  display: block;
+  position: relative;
+  top: -5px;
+  left: -8px;
+  width: 150px;
+  padding: 15px 5px;
 }
+
+.imglogo {
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.nomlogo {
+  /* display: inline-block; */
+  text-align: center;
+}
+
+.perfil {
+  /* display: inline-block; */
+  text-align: center;
+  width: 6em;
+}
+
 thead {
-    font-size: smaller;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+  font-size: smaller;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+#bloqueo {
+  font-size: smaller;
+}
+
+.table-tam {
+  min-width: 1000px;
+}
