@@ -65,15 +65,27 @@ thead {
   font-size: smaller;
 }
 
-.table-tam {
-  min-width: 1000px;
+.lote {
+  margin: 0;
+  font-size: smaller;
+  white-space: nowrap;
+  line-height: inherit;
+  text-align: center;
+  font-family: inherit;
+  max-inline-size: 3em;
 }
 
-.pequeño{
-
+.sem-embo {
   margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: smaller;
+  white-space: nowrap;
   line-height: inherit;
-  font-size:1em ;
+  text-align: center;
+  font-family: inherit;
+  max-inline-size: 6em;
+}
 
+tr, th {
+  margin: 0;
+  font-weight: 500;
 }
