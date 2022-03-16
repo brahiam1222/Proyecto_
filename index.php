@@ -72,7 +72,7 @@
 <div class="container">
 
     <div class="table-responsive">
-        <table class="table align-middle table-tam">
+        <table  class="table align-middle table-bordered">
             <thead>
             <th scope="col">sem_cosecha</th>
                     <th scope="col">fecha</th>
