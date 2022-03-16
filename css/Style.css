@@ -68,3 +68,12 @@ thead {
 .table-tam {
   min-width: 1000px;
 }
+
+.pequeño{
+
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: inherit;
+  font-size:1em ;
+
+}
