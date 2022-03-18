@@ -15,7 +15,7 @@
             <li class="nav-item active">
                 <a class="nav-link" href="index.php">Inicio</a>
             </li>
-            <form action="recibe.php" method="post">
+            <form action="recibe.php" name="formulario" method="post">
             
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digitar</a>
@@ -101,6 +101,7 @@
                
         </thead>
         <tbody>
+            <form action="" method="post"></form>
         <tr>
                     
                     <th scope="col">sem_embolse</th>
