@@ -1,9 +1,9 @@
-<?php include("../cabecera.php")?>
+<?php include("cabecera.php")?>
 
 <nav class="navbar navbar-expand navbar-light bg-faded">
     <div class="container ">
         <article class="article-Logo">
-            <div class="imglogo"><img class="logo" src="../img/papa-noel.png" alt=""></div>
+            <div class="imglogo"><img class="logo" src="img/papa-noel.png" alt=""></div>
             <div class="nomlogo">SOCIEDAD</div>
         </article>
 <article>
@@ -11,7 +11,7 @@
         <!-- <a class="navbar-brand" href="#"><img class="logo" src="img/papa-noel.png" alt=""></a> -->
         <ul class="navbar-nav me-6 mt-2 mt-lg-0 me-sm-2">
             <li class="nav-item active">
-                <a class="nav-link" href="../index.php">Inicio</a>
+                <a class="nav-link" href="index.php">Inicio</a>
             </li>
             <form action="recibe.php" method="post">
             
@@ -57,7 +57,7 @@
 <article class="article-perfil">
     
     <form class="d-flex my-0 my-lg-0">
-        <button class="btn btn-outline-success mx-4 my-2 my-sm-1 " type="button"><img class="perfil" src="../img/papa-noel.png" alt=""></button>
+        <button class="btn btn-outline-success mx-4 my-2 my-sm-1 " type="button"><img class="perfil" src="img/papa-noel.png" alt=""></button>
         
     </article>
 </div>
