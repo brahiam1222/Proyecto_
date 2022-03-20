@@ -19,10 +19,12 @@
 
 }
 
-form{
+$table-border-factor: .1;
 
-  
-  border: 1px;
+#table2 {
+
+  border-color: aqua;
+  border: 5px;
   border-radius: 2px;
 
 

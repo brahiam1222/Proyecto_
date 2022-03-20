@@ -5,11 +5,9 @@
           box-sizing: border-box;
 }
 
-
 .navbar-expand {
   font-size: 2em;
 }
-
 
 .navbar-brand {
   font-size: 2em;
@@ -17,6 +15,12 @@
 
 .logo {
   width: 2em;
+}
+
+#table2 {
+  border-color: aqua;
+  border: 5px;
+  border-radius: 2px;
 }
 
 article {
