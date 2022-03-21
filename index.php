@@ -84,7 +84,7 @@
 <div class="container">
     
     <div class="table-responsive">
-        <table  class="table align-middle table-bordered">
+        <table  id="table2" class="table align-middle table-bordered">
             <thead>
                         <form id="datosHead" action="" method="post">
                         <th scope="col">sem_cosecha</th>
