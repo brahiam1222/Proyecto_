@@ -5,11 +5,9 @@
           box-sizing: border-box;
 }
 
-
 .navbar-expand {
   font-size: 2em;
 }
-
 
 .navbar-brand {
   font-size: 2em;
@@ -17,6 +15,14 @@
 
 .logo {
   width: 2em;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+select {
+  color: red;
 }
 
 article {

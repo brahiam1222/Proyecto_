@@ -1,7 +1,7 @@
 <?php include("cabecera.php")?>
 <body>
   
-<nav class="navbar navbar-expand navbar-light bg-faded">
+<div class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
     <div class="container ">
         <article class="article-Logo">
             <div class="imglogo"><img class="logo" src="img/papa-noel.png" alt=""></div>
@@ -15,7 +15,7 @@
             <li class="nav-item active">
                 <a class="nav-link" href="index.php">Inicio</a>
             </li>
-            <form action="recibe.php" name="formulario" method="post">
+            <form class="" action="recibe.php" name="formulario" method="post">
             
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digitar</a>
@@ -64,7 +64,7 @@
     
 </article>
 </div>
-</nav>
+</div>
 
 <?php 
 
@@ -82,24 +82,31 @@
 
 
 <div class="container">
-
+    
     <div class="table-responsive">
         <table  class="table align-middle table-bordered">
             <thead>
-            <th scope="col">sem_cosecha</th>
-                    <th scope="col">fecha</th>
-                    <th scope="col">finca</th>
-                    <th scope="col">destino</th>
-            </th>
-
-            <tr>
-                <td scope="row"><input type="week" name="" id=""></td>
-                <td scope="row"><input  type="date" name="" id=""></td>
-                <td scope="row"><select name="Finca" value=""id="Finca"></select></td>
-                <td scope="row" class="table-light" id="bloqueo" >exportacion</td>
-            </tr>
-               
-        </thead>
+                        <form id="datosHead" action="" method="post">
+                        <th scope="col">sem_cosecha</th>
+                        <th scope="col">fecha</th>
+                        <th scope="col">finca</th>
+                        <th scope="col">destino</th>
+                    </th>
+                    
+                    <tr>
+                        <td scope="row"><input type="week" name="" id=""></td>
+                        <td scope="row"><input  type="date" name="" id=""></td>
+                        <td scope="row"><select name="Fincas" value=""id="Fincas" form="datosHead">
+                            <option value="Manantiales">Manantiales</option>
+                            <option value="Madelandia">Madelandia</option>
+                            <option value="Santa_Helena">Santa_Helena</option>
+                            <option value="Corrales">Corrales</option>
+                        </select></td>
+                        <td scope="row" class="table-light" id="bloqueo" >EXPORTACION</td>
+                    </tr>
+                    
+                </form>
+                </thead>
         <tbody>
             <form action="" method="post"></form>
         <tr>
@@ -140,7 +147,9 @@
 
             <tr>
                 <td><input class="sem-embo" type="text" name="" ></td>
-                <td><input type="color" name="cinta" ></td>
+                <td><input type="color" list="coloresFinca" value="#ff0000" name="cinta">
+                
+                </td>
                 <td><input class="lote" type="text" name="" ></td>
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
@@ -172,7 +181,9 @@
             </tr>
             <tr>
                 <td><input class="sem-embo" type="text" name="" ></td>
-                <td><input type="color" name="cinta" ></td>
+                <td><input type="color" list="coloresFinca" value="#8100DE" name="cinta">
+                
+                </td>
                 <td><input class="lote" type="text" name="" ></td>
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
@@ -204,7 +215,9 @@
             </tr>
             <tr>
                 <td><input class="sem-embo" type="text" name="" ></td>
-                <td><input type="color" name="cinta" ></td>
+                <td><input type="color" list="coloresFinca" value="#DEDA00" name="cinta">
+                
+                </td>
                 <td><input class="lote" type="text" name="" ></td>
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
@@ -236,7 +249,9 @@
             </tr>
             <tr>
                 <td><input class="sem-embo" type="text" name="" ></td>
-                <td><input type="color" name="cinta" ></td>
+                <td><input type="color" list="coloresFinca" value="#1525FB" name="cinta">
+                
+                </td>
                 <td><input class="lote" type="text" name="" ></td>
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
@@ -268,7 +283,9 @@
             </tr>
             <tr>
                 <td><input class="sem-embo" type="text" name="" ></td>
-                <td><input type="color" name="cinta" ></td>
+                <td><input type="color" list="coloresFinca" value="#1BB000" name="cinta">
+                
+                </td>
                 <td><input class="lote" type="text" name="" ></td>
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
@@ -298,102 +315,7 @@
                 <td><input class="lote"  class="lotes" type="number" name="" ></td>
                 
             </tr>
-            <tr>
-                <td><input class="sem-embo" type="text" name="" ></td>
-                <td><input type="color" name="cinta" ></td>
-                <td><input class="lote" type="text" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                
-            </tr>
-            <tr>
-                <td><input class="sem-embo" type="text" name="" ></td>
-                <td><input type="color" name="cinta" ></td>
-                <td><input class="lote" type="text" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                
-            </tr>
-            <tr>
-                <td><input class="sem-embo" type="text" name="" ></td>
-                <td><input type="color" name="cinta" ></td>
-                <td><input class="lote" type="text" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                
-            </tr>
+            
             <tr>
                 <td scope="row"></td>
                 <td></td>
