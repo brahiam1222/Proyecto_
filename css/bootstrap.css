@@ -358,7 +358,6 @@ select {
 
 select {
   word-wrap: normal;
-  background-color: red;
 }
 select:disabled {
   opacity: 1;
