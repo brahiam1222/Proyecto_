@@ -1,70 +1,7 @@
 <?php include("cabecera.php")?>
-<body>
-  
-<div class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-    <div class="container ">
-        <article class="article-Logo">
-            <div class="imglogo"><img class="logo" src="img/papa-noel.png" alt=""></div>
-            <div class="nomlogo">SOCIEDAD</div>
-        </article>
+
     
-    <article>
-
-        <!-- <a class="navbar-brand" href="#"><img class="logo" src="img/papa-noel.png" alt=""></a> -->
-        <ul class="navbar-nav me-6 mt-2 mt-lg-0 me-sm-2">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">Inicio</a>
-            </li>
-            <form class="" action="recibe.php" name="formulario" method="post">
-            
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digitar</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownId">
-
-                    <li><input class="dropdown-item"type="submit" name="registrar" value="embolse" id="embolse"></li>
-                    <li><input class="dropdown-item" type="submit" name="registrar" value="cosecha" id="cosecha"></li>
-                    <li><input class="dropdown-item" type="submit" name="registrar" value="novedades" id="novedades"></li>
-                    <li><input class="dropdown-item" type="submit" name="registrar" value="lluvias" id="lluvias"></li>
-                    
-                    
-                    
-                </ul>
-            </li>
-        </form>
-            <form action="recibe.php" method="post">
-                
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consultar</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownId">
-                        
-                        <li><input class="dropdown-item"type="submit" name="consultar" value="consolidado" id="consolidado"></li>
-                        <li><input class="dropdown-item" type="submit" name="consultar" value="venta" id="venta"></li>
-                        <li><input class="dropdown-item" type="submit" name="consultar" value="exportacion" id="exportacion"></li>
-                        <li><input class="dropdown-item" type="submit" name="consultar" value="terminacion" id="terminacion"></li>
-                        
-                        
-                        
-                    </ul>
-                </li>
-            </form>
-            <form action="recibe.php" method="post">
-
-                <li class="nav-item active">
-                    <input class="dropdown-item" type="submit" value="Sugerencia" name="sugerencia" id="sugerencia">
-                </li>
-            </form>
-            
-        
-</article>
-
-<article class="article-perfil">
     
-    <form class="d-flex my-0 my-lg-0">
-        <button class="btn btn-outline-success mx-4 my-2 my-sm-1 " type="button"><img class="perfil" src="img/papa-noel.png" alt=""></button>
-    
-</article>
-</div>
-</div>
 
 <?php 
 
