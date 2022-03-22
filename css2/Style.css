@@ -17,12 +17,12 @@
   width: 2em;
 }
 
-body {
-  background-color: aquamarine;
+div .container {
+  max-height: 4em;
 }
 
-select {
-  color: red;
+body {
+  background-color: aquamarine;
 }
 
 article {
@@ -42,9 +42,9 @@ article {
 .article-Logo {
   display: block;
   position: relative;
-  top: -5px;
+  top: 0.5em;
   left: -8px;
-  width: 150px;
+  width: 120px;
   padding: 15px 5px;
 }
 
