@@ -3,6 +3,39 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  position: relative;
+  font-family: initial;
+}
+
+h1::after, h1::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  background-color: black;
+  top: 0.6em;
+}
+
+h1:hover::before, h1:hover::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+h1::before {
+  left: -140px;
+}
+
+h1::after {
+  right: -140px;
 }
 
 .navbar-expand {
@@ -14,7 +47,21 @@
 }
 
 .logo {
-  width: 2em;
+  width: 5em;
+}
+
+.dropdown-item2 {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  clear: both;
+  font-weight: 400;
+  color: #fff;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
 }
 
 div .container {
@@ -42,10 +89,14 @@ article {
 .article-Logo {
   display: block;
   position: relative;
-  top: 0.5em;
+  top: 1em;
   left: -8px;
   width: 120px;
   padding: 15px 5px;
+}
+
+.table {
+  margin-top: 1em;
 }
 
 .imglogo {

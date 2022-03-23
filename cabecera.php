@@ -18,8 +18,8 @@
 <div class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
     <div class="container">
         <article class="article-Logo">
-            <div class="imglogo"><img class="logo" src="img/papa-noel.png" alt=""></div>
-            <div class="nomlogo">SOCIEDAD</div>
+            <div class="imglogo"><img class="logo" src="img/platanos.png" alt=""></div>
+            <div class="nomlogo">EXPOBANANA</div>
         </article>
 
 
@@ -66,7 +66,7 @@
     <form action="recibe.php" method="post">
 
         <li class="nav-item active">
-            <input class="dropdown-item" type="submit" value="Sugerencia" name="sugerencia" id="sugerencia">
+            <input class="dropdown-item2" type="submit" value="Sugerencia" name="sugerencia" id="sugerencia">
         </li>
     </form>
     
@@ -76,7 +76,7 @@
 <article class="article-perfil">
 
 <form class="d-flex my-0 my-lg-0">
-<button class="btn btn-outline-success mx-4 my-2 my-sm-1 " type="button"><img class="perfil" src="img/papa-noel.png" alt=""></button>
+<button class="btn btn-outline-success mx-4 my-4 my-sm-5 " type="button"><img class="perfil" src="img/hombre.png" alt=""></button>
 
 </article>
 </div>

@@ -1,6 +1,6 @@
 <?php include("cabecera.php")?>
 
-    
+<h1 class="linea-efecto" >EMBOLSE</h1> 
     
 <?php 
 

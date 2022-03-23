@@ -1,7 +1,7 @@
 <?php include("cabecera.php")?>
 
     
-    
+       <h1 class="linea-efecto" >INICIO</h1> 
 
 <?php 
 
