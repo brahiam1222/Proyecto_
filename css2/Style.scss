@@ -5,6 +5,72 @@
     text-align: center;
 }
 
+.fondo_login {
+
+
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    height: 100vh;
+
+
+
+    // font-family: 'Roboto';
+    // background: #4568DC;
+    // /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to right, #42f8a3, #dfeb77);
+    // /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to right, #42f8a3, #dfeb77);
+    // /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // height: 750px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.left{
+    background-color: aqua;
+
+}
+.right{
+    background-color: red;
+}
+
+
+    // input{
+    // background: none;
+    // color: #c6c6c6;
+    // font-size: 18px;
+    // padding: 10px 10px 10px 5px;
+    // display: block;
+    // width: 100%;
+    // border: none;
+    // border-bottom: 1px solid var(--colorTextos);
+
+    // }
+
+
+form{
+    padding: 40px 0;
+    border-radius: 10px;
+
+}
+
+.form{
+
+    width: 100%;
+    margin: auto;
+
+
+}
+form .orden{
+
+    position: relative;
+    margin: 45px;
+    
+
+
+}
+
 
 h1{
     display: inline-block;
@@ -78,10 +144,7 @@ div .container{
 
     max-height: 4em;
 }
-body{
 
-    background-color: aquamarine;
-}
 
 article{
 

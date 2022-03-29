@@ -16,6 +16,11 @@
         $paginaConsulta=$_POST["sugerencia"];
         header("location: ".$paginaConsulta.".php");
     }
+    elseif (isset($_POST["login"])) {
+        
+        $paginaConsulta=$_POST["login"];
+        header("location: ".$paginaConsulta.".php");
+    }
     
 
 

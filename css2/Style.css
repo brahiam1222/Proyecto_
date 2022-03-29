@@ -6,6 +6,37 @@
   text-align: center;
 }
 
+.fondo_login {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (50%)[2];
+  grid-template-columns: repeat(2, 50%);
+  height: 100vh;
+}
+
+.left {
+  background-color: aqua;
+}
+
+.right {
+  background-color: red;
+}
+
+form {
+  padding: 40px 0;
+  border-radius: 10px;
+}
+
+.form {
+  width: 100%;
+  margin: auto;
+}
+
+form .orden {
+  position: relative;
+  margin: 45px;
+}
+
 h1 {
   display: inline-block;
   position: relative;
@@ -66,10 +97,6 @@ h1::after {
 
 div .container {
   max-height: 4em;
-}
-
-body {
-  background-color: aquamarine;
 }
 
 article {
