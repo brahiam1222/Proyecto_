@@ -10,34 +10,68 @@
 
     <title>Login</title>
 </head>
-<body class="fondo_login">
+<body>
 
      <main class="fondo_login">
-         <div class="left"></div>
-         <div class="right"></div>
+         <div class="fondo">
+
+            <img src="img/izquierda.png" alt="">
+
+         </div>
+         <div class="form-datos">
+
+
+             <div class="datos">
+                 
+             
+             <h1>Ingresar</h1>
+             <form action="" method="post" id="login-form" >
+                 <div class="input-group">
+
+                    <label class="input-fill">
+
+                        <input type="email" name="email" id="email" placeholder="email" required>
+                        <span>Correo electronico</span>                        
+                    </label>
+
+
+                 </div>
+                 <div class="input-group">
+
+                    <label class="input-fill">
+
+                        <input type="password" name="password" id="password" placeholder="password" required>
+                        <span>Contraseña</span>                        
+                    </label>
+
+
+                 </div>
+                 inpu
+
+
+
+                 <!-- <img class="imgLogin" alt="" srcset="">
+                     <div class="form">
+         
+                         
+                         <div class="orden">
+                             <input type="text" value="">
+                             <label for="">ID</label>
+                         </div>
+                         <div class="orden">
+                             <input type="password" value="">
+                             <label for="">Contraseña</label>
+                         </div>
+                         <input type="submit" value="Ingresar">
+                     </div> -->
+                     
+                     
+                     
+                    </form>
+                </div>
+         </div>
      </main>
     
-    <form action="" method="post" id="form" >
-    <div class="form">
-        <img class="imgLogin" alt="" srcset="">
-            <div class="form">
-
-                <h1> Ingreso</h1>
-                <div class="orden">
-                    <input type="text" value="">
-                    <label for="">ID</label>
-                </div>
-                <div class="orden">
-                    <input type="password" value="">
-                    <label for="">Contraseña</label>
-                </div>
-                <input type="submit" value="Ingresar">
-            </div>
-            
-            
-            
-        </div>
-    </form>
 
 
 
