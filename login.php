@@ -46,7 +46,7 @@
 
 
                  </div>
-                 inpu
+                 <input type="button" value="Enviar">
 
 
 
