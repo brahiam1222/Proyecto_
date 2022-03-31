@@ -27,6 +27,9 @@
 
 
 }
+.fondo img{
+    width: 50em;
+}
 .datos{
     background-image: url("../img/Login-fondo.png");
     background-size: cover;
@@ -39,13 +42,89 @@
     align-items: center;
     
 }
+
 .form-datos{
 
-    border:solid;
     text-align: center;
 
 }
 
+.input-group{
+
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+
+
+
+}
+
+.input-fill input{
+
+    border: none;
+    border-bottom: 3px solid #fff;
+    background: transparent;
+    color: #000;
+    font-size: 1em;
+    width: 100%;
+    padding: 0.5em;
+    outline: none;
+    transition: all 0.3s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 1em;
+    
+
+
+
+}
+
+.input-fill input:focus{
+
+    border-bottom: 3px solid #62A8FC;
+    color: #000;
+    transition: all 0.3s;
+
+}
+.input-fill input:hover{
+
+    border-bottom: 3px solid #62A8FC;
+    color: #000;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.635);
+
+
+}
+
+.input-fill input:hover::placeholder{
+
+    color: #62A8FC;
+    transition: all 0.3s;
+
+}
+
+
+// .input-fill .input-label{
+
+//     position: absolute;
+//     top: 0;
+//     left: 28px;
+//     line-height: 147%;
+//     color: #000;
+//     transition: top 0.3s, font-size 0.3s;
+//     font-weight: 700;
+//     color: #fff;
+//     font-family: 'Roboto', sans-serif;
+//     font-weight: 300;
+//     transition: all 0.3s;
+//     pointer-events: none;
+//     transition: all 0.3s;
+//     opacity: 0;
+//     transition: all 0.3s;
+
+
+// }
 
 
 //     font-family: 'Roboto';

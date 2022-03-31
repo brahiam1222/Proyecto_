@@ -31,7 +31,8 @@
                     <label class="input-fill">
 
                         <input type="email" name="email" id="email" placeholder="email" required>
-                        <span>Correo electronico</span>                        
+                        <!-- <span class="input-label">Correo Electronico</span> -->
+                                          
                     </label>
 
 
@@ -41,7 +42,8 @@
                     <label class="input-fill">
 
                         <input type="password" name="password" id="password" placeholder="password" required>
-                        <span>Contraseña</span>                        
+                        <!-- <span class="input-label">Contraseña</span> -->
+                                            
                     </label>
 
 

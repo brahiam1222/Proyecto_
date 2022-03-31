@@ -31,6 +31,10 @@
           align-items: center;
 }
 
+.fondo img {
+  width: 50em;
+}
+
 .datos {
   background-image: url("../img/Login-fondo.png");
   background-size: cover;
@@ -53,6 +57,73 @@
 }
 
 .form-datos {
-  border: solid;
   text-align: center;
+}
+
+.input-group {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+
+.input-fill input {
+  border: none;
+  border-bottom: 3px solid #fff;
+  background: transparent;
+  color: #000;
+  font-size: 1em;
+  width: 100%;
+  padding: 0.5em;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+.input-fill input:focus {
+  border-bottom: 3px solid #62A8FC;
+  color: #000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.input-fill input:hover {
+  border-bottom: 3px solid #62A8FC;
+  color: #000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.635);
+}
+
+.input-fill input:hover::-webkit-input-placeholder {
+  color: #62A8FC;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.input-fill input:hover::-moz-placeholder {
+  color: #62A8FC;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.input-fill input:hover:-ms-input-placeholder {
+  color: #62A8FC;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.input-fill input:hover::-ms-input-placeholder {
+  color: #62A8FC;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.input-fill input:hover::placeholder {
+  color: #62A8FC;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }

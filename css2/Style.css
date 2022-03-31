@@ -161,6 +161,16 @@ thead {
   max-inline-size: 3em;
 }
 
+.total {
+  margin: 0;
+  font-size: smaller;
+  white-space: nowrap;
+  line-height: inherit;
+  text-align: center;
+  font-family: inherit;
+  max-inline-size: 3em;
+}
+
 .sem-embo {
   margin: 0;
   font-size: smaller;

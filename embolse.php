@@ -1,5 +1,11 @@
 <?php include("cabecera.php")?>
 
+
+
+<?php 
+$lts = array("lt1","lt2","lt3","lt4","lt5","lt6","lt7","lt8","lt9","lt10","lt11","lt12","lt13","lt14","lt15","lt16","lt17","lt18","lt19","lt20");
+?>
+
 <h1 class="linea-efecto" >EMBOLSE</h1> 
     
 <?php 
@@ -50,31 +56,11 @@
                     <th scope="col">sem_embolse</th>
                     <th scope="col">cinta</th>
                     <th scope="col">edad</th>
-                    <th scope="col">lt_01</th>
-                    <th scope="col">lt_02</th>
-                    <th scope="col">lt_03</th>
-                    <th scope="col">lt_04</th>
-                    <th scope="col">lt_05</th>
-                    <th scope="col">lt_06</th>
-                    <th scope="col">lt_07</th>
-                    <th scope="col">lt_08</th>
-                    <th scope="col">lt_09</th>
-                    <th scope="col">lt_10</th>
-                    <th scope="col">lt_12</th>
-                    <th scope="col">lt_13</th>
-                    <th scope="col">lt_14</th>
-                    <th scope="col">lt_15</th>
-                    <th scope="col">lt_16</th>
-                    <th scope="col">lt_17</th>
-                    <th scope="col">lt_18</th>
-                    <th scope="col">lt_19</th>
-                    <th scope="col">lt_20</th>
-                    <th scope="col">lt_21</th>
-                    <th scope="col">lt_22</th>
-                    <th scope="col">lt_23</th>
-                    <th scope="col">lt_24</th>
-                    <th scope="col">lt_25</th>
-                    <th scope="col">lt_26</th>
+                    <?php 
+                    foreach ($lts as $lt) { 
+                        echo "<th scope='col'>".$lt."</th>";
+                    }?></th>
+                   
                     <th scope="col">Total</th>
                 
                 
@@ -87,32 +73,12 @@
                 
                 </td>
                 <td><input class="lote" type="text" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
+                <?php 
+                    foreach ($lts as $lt) { 
+                        echo "<td><input class='lote'  type='number' name='' ></td>";
+                    }?></th>
+                <td><input class="total" type="text" name="" ></td>
+               
                 
             </tr>
             <tr>
@@ -121,33 +87,11 @@
                 
                 </td>
                 <td><input class="lote" type="text" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                
+                <?php 
+                    foreach ($lts as $lt) { 
+                        echo "<td><input class='lote'  type='number' name='' ></td>";
+                    }?></th>
+                <td><input class="total" type="text" name="" ></td>
             </tr>
             <tr>
                 <td><input class="sem-embo" type="text" name="" ></td>
@@ -155,33 +99,11 @@
                 
                 </td>
                 <td><input class="lote" type="text" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                
+                <?php 
+                    foreach ($lts as $lt) { 
+                        echo "<td><input class='lote'  type='number' name='' ></td>";
+                    }?></th>
+                <td><input class="total" type="text" name="" ></td>
             </tr>
             <tr>
                 <td><input class="sem-embo" type="text" name="" ></td>
@@ -189,33 +111,11 @@
                 
                 </td>
                 <td><input class="lote" type="text" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                
+                <?php 
+                    foreach ($lts as $lt) { 
+                        echo "<td><input class='lote'  type='number' name='' ></td>";
+                    }?></th>
+                <td><input class="total" type="text" name="" ></td>
             </tr>
             <tr>
                 <td><input class="sem-embo" type="text" name="" ></td>
@@ -223,33 +123,11 @@
                 
                 </td>
                 <td><input class="lote" type="text" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                <td><input class="lote"  class="lotes" type="number" name="" ></td>
-                
+                <?php 
+                    foreach ($lts as $lt) { 
+                        echo "<td><input class='lote'  type='number' name='' ></td>";
+                    }?></th>
+                <td><input class="total" type="text" name="" ></td>
             </tr>
             
             <tr>
