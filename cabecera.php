@@ -80,7 +80,7 @@
 <article class="article-perfil" >
 
 <form class="d-flex my-0 my-lg-0" method="post">
-<button class="btn btn-outline-success mx-4 my-4 my-sm-5 " value="login" type="submit"><img class="perfil" src="img/hombre.png" alt=""></button>
+<button class="btn btn-outline-success mx-4 my-4 my-sm-5 " value="login" name="" type="submit"><img class="perfil" src="img/hombre.png" alt=""></button>
 
 </article>
 </div>
