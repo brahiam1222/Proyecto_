@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-align: center;
+    
 }
 
 .fondo_login {
@@ -92,15 +93,42 @@
     border-bottom: 3px solid #62A8FC;
     color: #000;
     transition: all 0.3s;
-    background-color: rgba(255, 255, 255, 0.635);
-
+    background-color:  rgb(255, 255, 255);
 
 }
 
 .input-fill input:hover::placeholder{
 
+    color: rgba(20, 20, 20, 0.744);
+    font-size: 1.5em;
+    transition: all 0.2s;
+
+}
+
+.btn-enviar{
+
+border-radius: 1em;
+width: 45%;
+padding: 0.5em;
+background-color: #62A8FC;
+color: #fff;
+font-size: 1em;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+margin-top: 1em;
+transition: all 0.3s;
+
+
+
+}
+
+
+.btn-enviar:hover{
+
+    background-color: #fff;
     color: #62A8FC;
     transition: all 0.3s;
+
 
 }
 

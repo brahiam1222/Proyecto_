@@ -28,9 +28,13 @@
 
 <!-- <a class="navbar-brand" href="#"><img class="logo" src="img/papa-noel.png" alt=""></a> -->
 <ul class="navbar-nav me-6 mt-2 mt-lg-0 me-sm-2">
-    <li class="nav-item active">
-        <a class="nav-link" href="index.php">Inicio</a>
-    </li>
+    
+    <form action="recibe.php" method="post">
+
+        <li class="nav-item active">
+            <a class="nav-link" href="index.php">Inicio</a>
+        </li>
+    </form>
     <form action="recibe.php" method="post">
     
     <li class="nav-item dropdown">

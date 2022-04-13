@@ -25,12 +25,12 @@
                  
              
              <h1>Ingresar</h1>
-             <form action="" method="post" id="login-form" >
+             <form action="recibe.php" method="POST" id="login-form" >
                  <div class="input-group">
 
                     <label class="input-fill">
 
-                        <input type="email" name="email" id="email" placeholder="email" required>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
                         <!-- <span class="input-label">Correo Electronico</span> -->
                                           
                     </label>
@@ -41,16 +41,56 @@
 
                     <label class="input-fill">
 
-                        <input type="password" name="password" id="password" placeholder="password" required>
+                        <input type="password" name="password" id="password" placeholder="Contraseña" required>
                         <!-- <span class="input-label">Contraseña</span> -->
                                             
                     </label>
 
 
                  </div>
-                 <input type="button" value="Enviar">
 
+                 <button type="submit" name="cuenta" class="btn-enviar">Enviar</button>
 
+                <?php 
+                
+                    if (isset($_POST['email']) && isset($_POST['password'])) {
+                        $datos = [
+                            'email' => $_POST['email'],
+                            'password' => $_POST['password']
+                        ];
+                        echo $datos['email'];
+                        
+                     
+                     
+                     
+                        // $email = $_POST['email'];
+                        // $password = $_POST['password'];
+                        // $query = "SELECT * FROM usuarios WHERE email = '$email' AND password = '$password'";
+                        // $result = mysqli_query($conn, $query);
+                        // if (mysqli_num_rows($result) > 0) {
+                        //     $row = mysqli_fetch_assoc($result);
+                        //     $_SESSION['id'] = $row['id'];
+                        //     $_SESSION['nombre'] = $row['nombre'];
+                        //     $_SESSION['apellido'] = $row['apellido'];
+                        //     $_SESSION['email'] = $row['email'];
+                        //     $_SESSION['password'] = $row['password'];
+                        //     $_SESSION['rol'] = $row['rol'];
+                        //     $_SESSION['fecha_nacimiento'] = $row['fecha_nacimiento'];
+                        //     $_SESSION['fecha_ingreso'] = $row['fecha_ingreso'];
+                        //     $_SESSION['fecha_salida'] = $row['fecha_salida'];
+                        //     $_SESSION['estado'] = $row['estado'];
+                        //     $_SESSION['foto'] = $row['foto'];
+                        //     $_SESSION['id_empresa'] = $row['id_empresa'];
+                        //     $_SESSION['id_cosecha'] = $row['id_cosecha'];
+                        //     $_SESSION['id_embolsado'] = $row['id_embolsado'];
+                        //     $_SESSION['id_novedad'] = $row['id_novedad'];
+                        //     $_SESSION['id_lluvia'] = $row['id_lluvia'];
+                        //     $_SESSION['id_consolidado'] = $row['id_consolidado'];
+                        //     $_SESSION['id_cosecha'] = $row['id_cosecha'];
+                            
+                    }
+
+                ?>
 
                  <!-- <img class="imgLogin" alt="" srcset="">
                      <div class="form">

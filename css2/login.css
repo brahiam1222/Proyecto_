@@ -95,34 +95,60 @@
   color: #000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-color: rgba(255, 255, 255, 0.635);
+  background-color: white;
 }
 
 .input-fill input:hover::-webkit-input-placeholder {
-  color: #62A8FC;
+  color: rgba(20, 20, 20, 0.744);
+  font-size: 1.5em;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.input-fill input:hover::-moz-placeholder {
+  color: rgba(20, 20, 20, 0.744);
+  font-size: 1.5em;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.input-fill input:hover:-ms-input-placeholder {
+  color: rgba(20, 20, 20, 0.744);
+  font-size: 1.5em;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.input-fill input:hover::-ms-input-placeholder {
+  color: rgba(20, 20, 20, 0.744);
+  font-size: 1.5em;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.input-fill input:hover::placeholder {
+  color: rgba(20, 20, 20, 0.744);
+  font-size: 1.5em;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-enviar {
+  border-radius: 1em;
+  width: 45%;
+  padding: 0.5em;
+  background-color: #62A8FC;
+  color: #fff;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-top: 1em;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-.input-fill input:hover::-moz-placeholder {
-  color: #62A8FC;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.input-fill input:hover:-ms-input-placeholder {
-  color: #62A8FC;
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.input-fill input:hover::-ms-input-placeholder {
-  color: #62A8FC;
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.input-fill input:hover::placeholder {
+.btn-enviar:hover {
+  background-color: #fff;
   color: #62A8FC;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;

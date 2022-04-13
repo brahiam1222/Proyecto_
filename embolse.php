@@ -3,7 +3,7 @@
 
 
 <?php 
-$lts = array("lt1","lt2","lt3","lt4","lt5","lt6","lt7","lt8","lt9","lt10","lt11","lt12","lt13","lt14","lt15","lt16","lt17","lt18","lt19","lt20");
+$lts = array("lt_01","lt_02","lt_03","lt_04","lt_05","lt_06","lt_07","lt_08","lt_09","lt_10","lt_11","lt_12","lt_13","lt_14","lt_15","lt_16","lt_17","lt_18","lt_19","lt_20");
 ?>
 
 <h1 class="linea-efecto" >EMBOLSE</h1> 
